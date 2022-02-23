@@ -9,6 +9,8 @@
         <div class="row">
             <div class="col">
                 <form action="{{ route('comics.store')}}" metod="post">
+                @csrf
+                @method('POST')
                     <div class="input-group mb-3">
                         <span class="input-group-text text-uppercase">title</span>
                         <input type="text" class="form-control" id="title" name="title" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
