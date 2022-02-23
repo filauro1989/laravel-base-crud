@@ -5,8 +5,14 @@
 @endsection
 
 @section('content')
-    <div class="container d-flex flex-wrap">
 
+    <div class="row">
+        <div class="col d-flex justify-content-center p-5">
+            <a href="{{ route('comics.create') }}" class="btn btn-primary">Create New Comic</a>
+        </div>
+    </div>
+
+    <div class="container d-flex flex-wrap">
         @foreach ($comic as $comics_item)
             <div class="card w-25 d-flex align-items-center">
                 <div class="wrapper d-flex flex-column align-items-center">
