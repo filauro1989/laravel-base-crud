@@ -14,7 +14,9 @@ class ComicController extends Controller
      */
     public function index()
     {
-        //
+        $comic = Comic::paginate(10);
+        
+        return view('comics.index', compact('comic'));
     }
 
     /**
