@@ -39,6 +39,7 @@
                         <span class="input-group-text text-uppercase">type</span>
                         <input type="text" class="form-control" id="type" name="type" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
+                    <button class="btn btn-primary" type="submit">Invia</button>
                 </form>
             </div>
         </div>
