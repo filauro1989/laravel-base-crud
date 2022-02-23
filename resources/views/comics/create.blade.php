@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <form action="{{ route('comics.store')}}" metod="post">
+                <form action="{{ route('comics.store')}}" method="post">
                 @csrf
                 @method('POST')
                     <div class="input-group mb-3">
