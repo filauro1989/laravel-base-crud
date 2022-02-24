@@ -30,6 +30,7 @@
                     <h3>{{ $comics_item['series'] }}</h3>
                     <h3>{{ $comics_item['sale_date'] }}</h3>
                     <h3>{{ $comics_item['type'] }}</h3>
+                    <a href="{{ route('comics.edit', $comics_item)}}" class="btn btn-primary">Edit</a>
                 </div>
             </div>
         @endforeach
