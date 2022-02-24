@@ -12173,3 +12173,28 @@ fieldset:disabled .btn {
   }
 }
 
+.w-23 {
+  width: 23%;
+}
+
+.card {
+  background-color: #eeeded;
+}
+
+.card .wrapper h2,
+.card .wrapper .h2 {
+  min-height: 80px;
+}
+
+.card .wrapper p {
+  min-height: 130px;
+}
+
+.card .wrapper .product a img {
+  transition: transform 0.2s;
+}
+
+.card .wrapper .product a:hover img {
+  transform: scale(1.1);
+}
+

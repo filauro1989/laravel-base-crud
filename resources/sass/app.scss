@@ -1,2 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
 
+.w-23 {
+    width: 23%;
+}
+.card {
+    background-color: rgb(238, 237, 237);
+    .wrapper {
+        h2 {
+            min-height: 80px;
+        }
+        p{
+            min-height: 130px;
+        }
+        .product{
+            a img{
+                transition: transform 0.2s;
+            }
+            a:hover img{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
